@@ -1,4 +1,6 @@
-export const db = [
+import { Product } from "../type";
+
+export const db: Product[] = [
   {
     id: 1,
     name: "Lukather",
@@ -6,7 +8,6 @@ export const db = [
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
     price: 299,
-    quantity: 0,
   },
   {
     id: 2,
@@ -15,7 +16,6 @@ export const db = [
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
     price: 349,
-    quantity: 0,
   },
   {
     id: 3,
@@ -24,7 +24,6 @@ export const db = [
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
     price: 329,
-    quantity: 0,
   },
   {
     id: 4,
@@ -33,7 +32,6 @@ export const db = [
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
     price: 299,
-    quantity: 0,
   },
   {
     id: 5,
@@ -42,7 +40,6 @@ export const db = [
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
     price: 399,
-    quantity: 0,
   },
   {
     id: 6,
@@ -51,7 +48,6 @@ export const db = [
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
     price: 329,
-    quantity: 0,
   },
   {
     id: 7,
@@ -60,7 +56,6 @@ export const db = [
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
     price: 349,
-    quantity: 0,
   },
   {
     id: 8,
@@ -69,7 +64,6 @@ export const db = [
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
     price: 379,
-    quantity: 0,
   },
   {
     id: 9,
@@ -78,7 +72,6 @@ export const db = [
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
     price: 289,
-    quantity: 0,
   },
   {
     id: 10,
@@ -87,7 +80,6 @@ export const db = [
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
     price: 349,
-    quantity: 0,
   },
   {
     id: 11,
@@ -96,7 +88,6 @@ export const db = [
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
     price: 399,
-    quantity: 0,
   },
   {
     id: 12,
@@ -105,6 +96,5 @@ export const db = [
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
     price: 379,
-    quantity: 0,
   },
 ];

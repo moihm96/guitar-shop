@@ -1,18 +1,11 @@
-export interface Product {
-  id: number;
-  name: string;
-  image: string;
-  description: string;
-  price: number;
-  quantity: number;
-}
+import { Product } from "../type";
 
-interface Props {
+interface GuitarProps {
   guitar: Product;
-  addToCart: (guitar: Product) => void;
+  addToCart: (item: Product) => void;
 }
 
-export default function Guitar({ guitar, addToCart }: Props) {
+export default function Guitar({ guitar, addToCart }: GuitarProps) {
   const { id, name, image, description, price } = guitar;
 
   return (
