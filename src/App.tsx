@@ -11,7 +11,7 @@ function App() {
 
     return localStorageCart ? JSON.parse(localStorageCart) : [];
   };
-  const [guitars] = useState(db);
+  const [data] = useState(db);
   const [cart, setCart] = useState<Product[]>(initialCart);
 
   const MIN_QTY = 1;
@@ -92,8 +92,8 @@ function App() {
         <h2 className="text-center">Nuestra Colección</h2>
 
         <div className="row mt-5">
-          {guitars.map((guitar) => (
-            <Guitar key={guitar.id} guitar={guitar} addToCart={addToCart} />
+          {data.map((product) => (
+            <Guitar key={product.id} guitar={product} addToCart={addToCart} />
           ))}
         </div>
       </main>
